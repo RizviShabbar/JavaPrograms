@@ -20,7 +20,7 @@ package Unit_01;
  * it is shared among all the object of that class.
  */
 	public class java_keyword {
-		public static void main(string[] args)
+		public static void main(String[] args)
 		{
 			//variable name
 			int double = 12;
@@ -44,6 +44,7 @@ package Unit_01;
 		class ABC{
 			void display() {
 				System.out.println("another class");
-//object name can never be any keywords.
+//object name can never be any keywords in java.
 			}
+}
 
