@@ -20,12 +20,14 @@ public class P4_Task03_ScannerClassInJava {
 		Scanner obj1 = new Scanner(System.in);  //Creates a Scanner object
 		
 		//Read the First-Token(_ space bar)
+		System.out.println("enter the string1");
 		String name = obj1.next();
 		System.out.println("Name : "+name);
 		
+		System.out.println("enter the string2");
 		String name1 = obj1.nextLine();
 		System.out.println("Name : "+name1);
-		
+		System.out.println("enter the value");
 		boolean b = obj1.nextBoolean();
 		System.out.println(b);
 		

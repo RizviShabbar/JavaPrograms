@@ -33,5 +33,6 @@ class SwitchStatements {
 			break;
 		default:System.out.println("Please enter valid choice");
 		}
+		in.close();
 	}
 }

@@ -1,7 +1,7 @@
 package Unit_02;
 /*
 Abstract Class:
- - An abstract class in must be declared with an abstract keyword.
+ - An abstract class is must be declared with an abstract keyword.
  
  - Abstraction is a process of hiding the implementation details 	
    and showing only the functionality(function declarations) to the user.
@@ -31,7 +31,7 @@ abstract class Bike {
 }
 
 class Honda extends Bike {
-	
+
 }
 public class P9_Task01_AbstractAndFinalClassInJava {
 	public static void main() {

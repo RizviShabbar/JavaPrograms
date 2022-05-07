@@ -3,17 +3,17 @@ package Unit_02;
 public class P10_Task01_OverloadingAndOverridingInJava {
 	
 public static void main(String[] args) {
-		OverloadingAndOverrindingInJava obj = new OverloadingAndOverrindingInJava();
+		/*OverloadingAndOverrindingInJava obj = new OverloadingAndOverrindingInJava();
 	
 		System.out.println("add() with 2 parameters");
 		System.out.println(obj.add(4,6));
 		
 		System.out.println("add() with 3 parameters");
-		System.out.println(obj.add(4,6,7));
+		System.out.println(obj.add(4,6,7));*/
 		
 		InheritFirstClass obj2 = new InheritFirstClass();
 		System.out.println(obj2.add(1,2));
-//		System.out.println(obj2.add(1,2,3));
+	    System.out.println(obj2.add(1,2,3));
 	}
 }
 

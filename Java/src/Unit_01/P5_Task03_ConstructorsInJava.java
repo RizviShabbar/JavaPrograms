@@ -1,9 +1,9 @@
 package Unit_01;
 /* 
-- It is called when an instance of the class is createdd 
+- It is called when an instance of the class is created. 
 - At the time of calling the constructor, memory for the object is allocated in the memeory
 - It is a special type of method which is used to initialize the object
-- Every time an object is created using the new() keyword, atleat one contructor is called
+- Every time an object is created using the new() keyword, atleat one constructor is called
 - Two types of Constructors in Java
 	- Parameterized Constructor 
 	- Default Constructor
@@ -31,7 +31,7 @@ class ABCD2{
 	}
 	
 	ABCD2(int a){
-		this.a = a;
+	    this.a = a;
 	}
 	
 	void display() {
@@ -42,7 +42,7 @@ class ABCD2{
 	
 	int display2() {
 		System.out.println(a);
-		//As a was a local variable so we can't acccess it outside the method 
+		//As b was a local variable so we can't acccess it outside the method 
 //		System.out.println(b);
 		return a;
 	}

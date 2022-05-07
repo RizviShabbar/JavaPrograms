@@ -1,7 +1,9 @@
 package Unit_02;
 /*   
  - An interface is a completely(100%) abstract class
- - that can be used to group related methods with empty bodies 
+ - that can be used to group related methods with empty bodies .
+ - a variable inside an interface is public,static and final also.
+ - a method inside interface is by default public as well as abstract.
  
  - Need of Interface 
  	- Multiple interface can be implemented at the same time in one class?
@@ -24,9 +26,13 @@ public class P12_Task01_InterfaceInJava implements Animal{
 		C1 obj = new C1();
 		obj.funcA();
 		obj.funcB();
+		Species obj1 = new Species();
+		obj1.humanSound();
+		obj1.run1();
+		obj1.animalSound();
+		obj1.run();
 	}
 
-	@Override
 	public void animalSound() {
 		// TODO Auto-generated method stub
 		

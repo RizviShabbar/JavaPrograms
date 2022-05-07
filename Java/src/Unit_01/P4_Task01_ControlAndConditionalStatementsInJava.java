@@ -53,11 +53,11 @@ class Statements{
 	}
 	void JumpStatements() {
 		for(int i = 0;i <= 10;i++) {
-			System.out.println(i);
+			System.out.println(i);//0
 			if(i==6) {
 			    break;	
 			}
-			System.out.println(i);
+			System.out.println(i);//0
 		}
 		for(int i = 0;i <= 10;i++) {
 			if(i==6) {

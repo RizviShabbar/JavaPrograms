@@ -16,7 +16,7 @@ class StringInJava{
 		String s = "Hello Buddy";
 		String s1 = new String("Hey");
 		System.out.println(s);
-		
+		System.out.println(s1);
 //		Get length of a String 
 		System.out.println(s.length());
 

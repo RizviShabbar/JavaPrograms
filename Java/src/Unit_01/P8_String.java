@@ -25,7 +25,7 @@ public class P8_String {
 }
 class QuestionsOnString {
 
-	void palindromeOrNot(String s) {
+	void palindromeOrNot(String s) {//Madam
 		
 		int n = s.length();
 		char[] c = new char[n];
@@ -41,7 +41,7 @@ class QuestionsOnString {
 		else 
 			System.out.println("String is not Palindrome");
 	}
-	void reverseOfAString(String s) { 
+	void reverseOfAString(String s) { 	
 		int j = s.length() - 1;
 		System.out.print("Reverse of the string : ");
 		for(int i=0;i<=j;i++) {

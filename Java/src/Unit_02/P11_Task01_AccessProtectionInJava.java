@@ -7,6 +7,8 @@ public class P11_Task01_AccessProtectionInJava {
 		ChildClass obj = new ChildClass();
 		obj.showData();
 		obj.accessData();
+		anotherClass obj1 = new anotherClass();
+		obj1.display();
 	}
 }
 
@@ -27,7 +29,7 @@ class ParentClass{
 class ChildClass extends ParentClass{
 	
 	void accessData() {
-		System.out.println("Inside ParentClass");
+		System.out.println("Inside ChildClass");
 		System.out.println("a = "+ a);
 		System.out.println("b = "+ b);
 		System.out.println("c = "+ c);
@@ -37,10 +39,11 @@ class ChildClass extends ParentClass{
 
 class anotherClass{
 void display() {
-		ParentClass obj = new ParentClass();
+	 	ParentClass obj = new ParentClass();
 		System.out.println(obj.a);
 		System.out.println(obj.b);
 		System.out.println(obj.c);
+		
 	}
 }
 

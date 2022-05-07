@@ -27,13 +27,12 @@ package Unit_02;
 public class P8_Task01_InheritanceInJava {
 		public static void main(String[] args){
 			
-			Three g = new Three();
+			Three g = new Three(3);
 			g.methodOne();
 			g.methodTwo();
-			
-	g.methodThree();
+			g.methodThree();
 
-			Two two = new Two(1);
+			//Two two = new Two(1);
 			D obj = new D(2);
 			obj.methodFour();
 			
@@ -80,7 +79,7 @@ public class P8_Task01_InheritanceInJava {
 		Three(int x){
 			super(1);
 			c = x;
-			System.out.println("Three Constructor!");
+			System.out.println("four Constructor!");
 		}
 		
 		public void methodThree() {

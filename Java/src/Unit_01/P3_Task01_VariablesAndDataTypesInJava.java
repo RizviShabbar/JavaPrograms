@@ -18,7 +18,7 @@ package Unit_01;
  */
 public class P3_Task01_VariablesAndDataTypesInJava {
 	static int q = 11;
-	int p = 10;
+	int p = 100;
 	
 	public static void main(String[] args) {
 		//valid declaration
@@ -61,13 +61,13 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		    * Java Variables Type Conversion & Type Casting 
 		    */
 		   
-		   double f;
-		   int i = 10;
+		   double f;//8bytes
+		   int i = 10;//4bytes
 		   f = i ; // Type Conversion 
 		   
-		   double g;
-		   int j = 10;
-		   g = (int)j ; // Type Casting 
+		   double g = 10;
+		   int j;
+		   j = (int)g; // Type Casting 
 		   
 		   System.out.println(f);
 		   System.out.println(i);
@@ -104,11 +104,13 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		   System.out.println(ABC1.j);
 		   
 		   ABC1.typeConversionAndTypeCasting();
+		   ABC1.display();
+		   //display();
 	}
 	
-	int r = 10;
+	 int r = 10;
 	
-	void display() {
+       void display() {
 		int a = 5;//local Variable
 		System.out.println("This is display Method");
 		System.out.println(a);
@@ -132,7 +134,7 @@ class ABC1{
 		  * 
 		  * double g = 10;//64 int j;//32 j = (int)g;
 		  */
-		 
+
 		 double f; //64 slots
 		 int i =10; // 32 slots
 		 f = i; // type conversion

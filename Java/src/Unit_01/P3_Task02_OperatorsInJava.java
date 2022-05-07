@@ -12,7 +12,6 @@ package Unit_01;
  * 		-ternary operators: {? : }
  * 		-Assignment operators: {=,+=,-=,/=,%=,&/,>>=,>>=}
  */
-
 public class P3_Task02_OperatorsInJava {
 		public static void main(String[] args) {
 			Operators obj = new Operators();
@@ -50,6 +49,7 @@ public class P3_Task02_OperatorsInJava {
 		}
 		void shiftop()
 		{
+			System.out.println("inside shift operator");
 			System.out.println(10<<2);
 			System.out.println(10>>2);
 		}
@@ -65,9 +65,10 @@ public class P3_Task02_OperatorsInJava {
 		{
 			int a=10,b=5,c=20;
 			//logical && bitwise &
-			System.out.println(a>b||a<c);
-			System.out.println(a>b|a<c);
-			System.out.println(a>b||a++<c);
+			System.out.println("inside bitwise operator");
+			System.out.println(a>b||a<c);//true
+			System.out.println(a>b|a<c);//true
+			System.out.println(a>b||a++<c);//true
 			System.out.println(a);//10 because second condition is not checked
 			System.out.println(a>b|a++<c);
 			System.out.println(a);//11because second is checked
