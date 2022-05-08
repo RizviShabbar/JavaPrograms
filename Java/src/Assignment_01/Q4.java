@@ -1,5 +1,4 @@
 package Assignment_01;
-
 public class Q4 {
 	public static void main(String[] args) {
 		System.out.println("Shabbar Rizvi_G_20011875");
