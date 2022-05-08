@@ -20,6 +20,8 @@ public class Q1 {
 		obj.close();
 	}	
 }
+
+
 class Student{
 	static int avg = 0;
 	String name;
