@@ -6,7 +6,6 @@ public class P2_Task02_ConstantsInJava {
 	public static void main(String[] args) {
 		System.out.println(pi);
 		main("askbdfhksd");
-		
 		NewClass obj = new NewClass();
 		obj.add(1, 2);
 		//P2_Task02_ConstantsInJava obj1 = new P2_Task02_ConstantsInJava();

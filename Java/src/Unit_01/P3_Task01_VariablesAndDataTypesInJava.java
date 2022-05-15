@@ -11,10 +11,10 @@ package Unit_01;
  *   
  *   Static Variables:static variables are defined with a static keyword.
  *   static variables are initialized only once,at the start of the program execution.
- *   these static variables should be initialized first,before the inintialization of any object.
+ *   these static variables should be initialized first,before the initialization of any object.
  *   
  *   Data Types in Java?
- *   Refernce oneNote 
+ *   Reference oneNote 
  */
 public class P3_Task01_VariablesAndDataTypesInJava {
 	static int q = 11;
